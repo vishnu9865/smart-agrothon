@@ -146,7 +146,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 70px;
+  height: 100px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -179,7 +179,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 60px;
   border-radius: 10px;
 }
 
@@ -232,6 +232,31 @@ h6 {
 .navbar li:hover>a {
   background: var(--clr-main-green);
   color: white;
+}
+
+.navbar img {
+  width: 100%;
+}
+
+.cta-main-btn {
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  background: var(--clr-main-green);
+  border-style: none;
+  border-width: 0px;
+}
+
+.cta-main-btn:hover {
+  transform: scale(1.12);
 }
 
 .navbar .dropdown ul {
@@ -415,7 +440,7 @@ h6 {
   overflow: hidden;
   position: relative;
   background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(225,247,225,1) 80%);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(225,247,225,1) 50%);
   padding: 0;
 }
 
